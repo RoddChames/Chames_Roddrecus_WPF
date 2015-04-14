@@ -5,5 +5,7 @@
 
 //alert("Testing 1,2,3");
 
-alert("This is to see if the js file is linked to the index.html");
+function myFunction(){
+    document.getElementByClassName("secret").innerHTML = "I love coding so much I wish that I could do it in my sleep!!!";
+}
 
