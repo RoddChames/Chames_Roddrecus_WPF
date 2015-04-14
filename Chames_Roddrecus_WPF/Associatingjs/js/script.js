@@ -1,3 +1,4 @@
+
 /*
  Rodd Chames
  Test js file
@@ -5,7 +6,8 @@
 
 //alert("Testing 1,2,3");
 
-function myFunction(){
-    document.getElementByClassName("secret").innerHTML = "I love coding so much I wish that I could do it in my sleep!!!";
-}
+alert("I want to learn how to do this on a extenal js file");
 
+function myFunction() {
+    document.getElementById("school").innerHTML = "I wish I could stay at home and code instead of going to work."
+}
