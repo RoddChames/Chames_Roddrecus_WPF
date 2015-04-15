@@ -29,11 +29,18 @@ console.log("Sparky is " + humanYears + " human years, which is " + dogYears + "
 //Number of people at the party. (22)
 //Number of pizzas ordered. (7)
 
-//Result Variables:
-//Number of slices per person. (Can be a decimal or floating point).
+//Result Variables: Number of slices per person. (Can be a decimal or floating point).
 
-//Result to Print:
-//“Each person ate X slices of pizza at the party.”
+//Result to Print: “Each person ate X slices of pizza at the party.”
+
+
+var slicesPerBox = 12;                  //Slices in each box.
+var numberOfPeople = 22;                //Number of people at the party.
+var pizzasOrdered = 7;                  // Number of pizzas ordered.
+var slicesPerPerson = pizzasOrdered * slicesPerBox / numberOfPeople;            //Number of slices each person gets.
+var roundDown = Math.floor(slicesPerPerson);    //If you should choose to round down this is the variable I've defined for that.
+console.log("Each person ate " + slicesPerPerson + " \"slices of pizza at the party.\""); //Each person ate 3.8181818181818183 "slices of pizza at the party."
+
 
 
 
