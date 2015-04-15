@@ -54,5 +54,23 @@ console.log("Each person ate " + roundDown + " \"slices of pizza at the party.\"
 
 
 
+//At the pizza party Sparky, the host’s dog is excited, because he gets the leftover pizza after the slices have been divided up evenly among the guests. Assume guests get whole slices, how many whole slices will Sparky feast on?
+
+//Example data set: 10 people, 4 pizzas and 8 slices per pizza will mean each person eats 3 slices and Sparky gets 2 slices. (Note that this is an example, your code should work and give me the accurate results no matter what numbers I put in for those given variables.)
+
+//Given: Don’t make new given variables/constants for this. Instead use the givens you set up for Slice of Pie I.
+
+//Result Variables: Number of slices Sparky gets to eat.
+
+//Result to Print: “Sparky got X slices of pizza.”
+
+
+var leftOvers = numberOfPeople  * .8181818181818183;                            //.8181818181818183 comes from the remainder of pizza left over by each guest....since the number I originally came up with was a decimal.
+
+console.log("sparky got " + leftOvers + " slices of pizza." );                  //Sparky got 18.000000000000004 slices of pizza.
+
+
+
+
 
 
