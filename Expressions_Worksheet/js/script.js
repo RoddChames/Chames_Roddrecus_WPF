@@ -72,5 +72,61 @@ console.log("sparky got " + leftOvers + " slices of pizza." );                  
 
 
 
+//You are budgeting your money for the year and must calculate your average weekly grocery shopping spending over the past five weeks. Store the past five grocery totals as a list in an array. Create an expression that will use the items in the array to calculate the average amount spent on groceries.
+
+//Please note: there should only be one given for this problem set, the array holding the five weekly totals.  You should be able to access the array using the array access notation discussed earlier in the course.
+
+//Givens: An array with five weekly grocery totals.
+
+//  Result Variable:
+    //Total amount spent on groceries.
+    //Average weekly grocery spending.
+
+    //Result to Print: “You have spent a total of $X on groceries over 5 weeks. That is an average of $X per week” Discounts
+
+
+var fiveWeeksGrocery = [73.20, 88.43, 68.67, 93.71, 69.51];
+
+var totalAmount = fiveWeeksGrocery[0] + fiveWeeksGrocery[1] + fiveWeeksGrocery[2] + fiveWeeksGrocery[3] + fiveWeeksGrocery[4];                          //Total spent on groceries over 5 weeks.
+
+var averageSpent = totalAmount / 5;         // Average amount spent on groceries over  5 weeks.
+
+console.log("You have spent an average of $" + totalAmount + " on groceries over 5 weeks. That is an average of $" + averageSpent + " a week.");       //You have spent an average of $393.52 on groceries over 5 weeks. That is an average of $78.704 a week.
+
+
+
+//Calculate the discounted price for an item. Create an expression that will calculate the discounted price with and without sales tax. (It is acceptable for the result to have more than two digits after the decimal. $345.896 for example.)
+//  Givens:
+    //Original price
+    // Discount percentage (20% would be 20, for example)
+    //  Description of item
+    // Sales tax percentage
+
+// Result Variables:
+    //  Price of the item with tax
+    //  Price of the item without tax
+
+// Result to Print: “Your X was originally $X, but after a X% discount, it is now $X without tax, and $X with tax.”
+
+
+var priceOriginal = 7.99;           //original price.
+
+var discountPercent = 10;           //10% discount.
+
+var itemName = "Case of water";     //item is case of water
+
+var salesTax = 0.06;                //sales tax is 6%.
+
+var priceWithTax = priceOriginal * salesTax + priceOriginal; //7.99 x 0.06 = 0.4794 (which is the total sales tax) so add the original price on to that and you will have $8.4694.
+
+var decimal2 = priceWithTax.toFixed(2);  //method used to make the final outcome two decimal spaces instead of four.
+
+console.log("Your " + itemName + " was originally S" + priceOriginal + " , but after a " + discountPercent + "% discount, it is now $" + priceOriginal + " without tax, and $" + decimal2 + " with tax." ); //Your Case of water was originally S7.99 , but after a 10% discount, it is now $7.99 without tax, and $8.47 with tax.
+
+
+//I don't understand how to work this problem.
+
+
+
 
 
