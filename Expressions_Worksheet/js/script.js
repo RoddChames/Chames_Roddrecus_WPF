@@ -12,9 +12,31 @@
 
 //Result to Print: “Sparky is X human years old which is X in dog years.
 
-var humanYears = 4;             //This is Sparkies age in human years. (I gave him this age since it wasn't told to us)
-var dogYears = humanYears * 7;  //We were told that each year for a human is seven years for a dog.  So humanYears x 7 will give us the product.
-console.log("Sparky is " + dogYears + " years old.");          //This prints out "Sparky is 28 years old."
+var humanYears = 4;                 //This is Sparkies age in human years. (I gave him this age since it wasn't told to us)
+var dogYears = humanYears * 7;      //We were told that each year for a human is seven years for a dog.  So humanYears x 7 will give us the product.
+var finalAgeDogYears = dogYears;    //This variable defines the final age already calculated together.
+console.log("Sparky is " + humanYears + " human years, which is " + dogYears + "  dog years.");          //This prints out "Sparky is 4 human years, which is 28 dog years."
+
+
+
+
+//Slice of Pie part 1
+
+//A bunch of students are having a party and somebody ordered pizza. Create an expression that calculates how much pizza each partygoer will get at the party.  (Assume all pizzas have the same number of slices and that the person dividing the pizza is really precise, so this can be a decimal, like 3.52 slices, etc.)
+
+//Given:
+// Number of slices per pizza. (12)
+//Number of people at the party. (22)
+//Number of pizzas ordered. (7)
+
+//Result Variables:
+//Number of slices per person. (Can be a decimal or floating point).
+
+//Result to Print:
+//“Each person ate X slices of pizza at the party.”
+
+
+
 
 
 
