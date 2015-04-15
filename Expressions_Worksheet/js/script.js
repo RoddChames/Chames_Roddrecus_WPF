@@ -12,9 +12,12 @@
 
 //Result to Print: “Sparky is X human years old which is X in dog years.
 
-var humanYears = 4;                 //This is Sparkies age in human years. (I gave him this age since it wasn't told to us)
-var dogYears = humanYears * 7;      //We were told that each year for a human is seven years for a dog.  So humanYears x 7 will give us the product.
-var finalAgeDogYears = dogYears;    //This variable defines the final age already calculated together.
+var humanYears = 4;                                                                                       //This is Sparkies age in human years. (I gave him this age since it wasn't told to us)
+
+var dogYears = humanYears * 7;                                                                            //We were told that each year for a human is seven years for a dog.  So humanYears x 7 will give us the product.
+
+var finalAgeDogYears = dogYears;                                                                          //This variable defines the final age already calculated together.
+
 console.log("Sparky is " + humanYears + " human years, which is " + dogYears + "  dog years.");          //This prints out "Sparky is 4 human years, which is 28 dog years."
 
 
@@ -34,11 +37,16 @@ console.log("Sparky is " + humanYears + " human years, which is " + dogYears + "
 //Result to Print: “Each person ate X slices of pizza at the party.”
 
 
-var slicesPerBox = 12;                  //Slices in each box.
-var numberOfPeople = 22;                //Number of people at the party.
-var pizzasOrdered = 7;                  // Number of pizzas ordered.
+var slicesPerBox = 12;                                                          //Slices in each box.
+
+var numberOfPeople = 22;                                                        //Number of people at the party.
+
+var pizzasOrdered = 7;                                                          // Number of pizzas ordered.
+
 var slicesPerPerson = pizzasOrdered * slicesPerBox / numberOfPeople;            //Number of slices each person gets.
-var roundDown = Math.floor(slicesPerPerson);    //If you should choose to round down this is the variable I've defined for that.
+
+var roundDown = Math.floor(slicesPerPerson);                                    //If you should choose to round down this is the variable I've defined for that.
+
 console.log("Each person ate " + slicesPerPerson + " \"slices of pizza at the party.\""); //Each person ate 3.8181818181818183 "slices of pizza at the party."
 
 
