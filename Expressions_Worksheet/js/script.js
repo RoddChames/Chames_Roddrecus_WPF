@@ -49,6 +49,7 @@ var roundDown = Math.floor(slicesPerPerson);                                    
 
 console.log("Each person ate " + slicesPerPerson + " \"slices of pizza at the party.\""); //Each person ate 3.8181818181818183 "slices of pizza at the party."
 
+console.log("Each person ate " + roundDown + " \"slices of pizza at the party.\""); //Each person ate 3 "slices of pizza at the party."
 
 
 
