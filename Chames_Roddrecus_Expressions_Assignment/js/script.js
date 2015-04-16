@@ -1,5 +1,5 @@
 /**
- * Roddrecus Chames  4/14/15.
+ * Roddrecus Chames  4/14/15  Expressions Assignment.
  */
 
 //Testing to see if my js file is linked to my index.html file
@@ -15,4 +15,14 @@ console.log(nameInput);
 
 //this alert is just a friendly gesture before we get started.
 alert("Hello " + nameInput + " I hope your day is going well! \nLet's get started");
+
+//prompt for job type (Civilian, Navy, or Marine)
+prompt("Are you labeled as a Civilian Contractor, Navy Personnel, or Marine?");
+
+var months = prompt("How many months have you been employed?")
+
+//These are the number days of leave earned each year by job type (choices will be: Civilian, Navy, or Marine).
+var leaveEarnedByJob = [1.5 * "", 2.5 * 12, 3.5 * 12];
+
+alert(leaveEarnedByJob[0]);
 
