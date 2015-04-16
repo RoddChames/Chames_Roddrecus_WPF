@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b2ed92d3-3ea2-43ca-9e0c-42ecd04da2a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/index.html" afterPath="$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/js/script.js" afterPath="$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Chames_Roddrecus_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10330579" vertical-offset="0" max-vertical-offset="726">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.3305785" vertical-offset="0" max-vertical-offset="726">
+              <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -58,8 +56,8 @@
       <list>
         <option value="$PROJECT_DIR$/Expressions_Worksheet/index.html" />
         <option value="$PROJECT_DIR$/Expressions_Worksheet/js/script.js" />
-        <option value="$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/js/script.js" />
         <option value="$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/index.html" />
+        <option value="$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/js/script.js" />
       </list>
     </option>
   </component>
@@ -355,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chames_Roddrecus_Expressions_Assignment/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10330579" vertical-offset="0" max-vertical-offset="726">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.3305785" vertical-offset="0" max-vertical-offset="726">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
           <folding />
         </state>
       </provider>
