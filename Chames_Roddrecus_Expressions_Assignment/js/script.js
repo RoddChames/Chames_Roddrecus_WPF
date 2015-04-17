@@ -2,10 +2,25 @@
  * Roddrecus Chames  4/14/15  Expressions Assignment.
  */
 
-//Testing to see if my js file is linked to my index.html file
- alert("Here is a calculator to help you add up earned vacation days.");
+//This line collects user name
+var userName = prompt('Welcome to Game-Khana!!!\nPlease type in your name for us to better serve you.');
 
-var customerName = prompt("Please enter your name so we can better assist you in calculating your vacation days.");
+//This line puts out user name within friendly text
+alert('Hello ' + userName + ' please select number of video game products.');
 
-alert("Hello " + customerName + " I hope your day is going well thus far!!! \nPlease click on ok to continue?");
+//each video game costs 69.99
+var videoGame = 69.99;
+
+//each Controller costs 35.00
+var gameController = 35.00;
+
+//Each game console costs 499.00
+var gameConsole = 499.00;
+
+
+
+
+
+
+
 
