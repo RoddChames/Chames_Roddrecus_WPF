@@ -8,14 +8,28 @@ var userName = prompt('Welcome to Game-Khana!!!\nPlease type in your name for us
 //This line puts out user name within friendly text
 alert('Hello ' + userName + ' please select number of video game products.');
 
+//prompt to see how many games the customer would like to purchase
+var numberOfGames = prompt("How many video you games would you like to purchase " + userName + "?");
+
 //each video game costs 69.99
-var videoGame = 69.99;
+var videoGame = 69.99 * numberOfGames;
+
+//prompt to see how many controllers customer would like
+var numberOfControllers = prompt("How many controllers would you like to purchase " + userName + "?");
 
 //each Controller costs 35.00
-var gameController = 35.00;
+var gameController = 35.00 * numberOfControllers;
+
+//prompt to see how many controllers customer would like
+var numberOfConsoles = prompt("How many game consoles would you like to purchase " + userName + "?");
 
 //Each game console costs 499.00
-var gameConsole = 499.00;
+var gameConsole = 499.00 * numberOfConsoles;
+
+//This is the grand total
+var result = videoGame + gameController + gameConsole;
+
+
 
 
 
