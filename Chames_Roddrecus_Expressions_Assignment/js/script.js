@@ -29,7 +29,11 @@ var gameConsole = 499.00 * numberOfConsoles;
 //This is the grand total
 var result = videoGame + gameController + gameConsole;
 
-console.log("Your grand total comes out to $" + result + " \nThank you for shopping with Game-Khana!");
+//This was used to check the grand total of all items purchased.
+var grandTotal = console.log("Your grand total comes out to $" + result + " \nThank you for shopping with Game-Khana!");
+
+//This alert box gives the grand total of all items purchased.
+alert(grandTotal);
 
 
 
