@@ -9,7 +9,7 @@ var userName = prompt('Welcome to Game-Khana!!!\nPlease type in your name for us
 alert('Hello ' + userName + ' please select number of video game products.');
 
 //prompt to see how many games the customer would like to purchase
-var numberOfGames = prompt("How many video you games would you like to purchase " + userName + "?");
+var numberOfGames = prompt("How many video games would you like to purchase " + userName + "?");
 
 //each video game costs 69.99
 var videoGame = 69.99 * numberOfGames;
@@ -28,6 +28,8 @@ var gameConsole = 499.00 * numberOfConsoles;
 
 //This is the grand total
 var result = videoGame + gameController + gameConsole;
+
+console.log("Your grand total comes out to $" + result + " \nThank you for shopping with Game-Khana!");
 
 
 
