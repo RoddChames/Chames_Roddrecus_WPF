@@ -6,12 +6,36 @@
 //Testing link between .js and index file
 //alert("This is to test js"); Test checked good, so I turned the alert into a note.
 
-//This calculator will tell how many bombs need to be built daily for combat operation by military branch
+//This calculator will tell how many bombs need to be built daily by branch based on if they are deployed or training
 
 //Different military branches
 var militaryBranches = ["Navy", "Marines", "Airforce"];
 
 //printed out military branches to make sure arrays worked properly
     console.log(militaryBranches);
+
+//Requesting military branch
+var membersBranch = prompt("To allow us to better serve you please choose your military organization. (Navy, Marines, or Airforce)");
+
+//Alert to choice of service
+alert("Thank you. You chose " + membersBranch + ". Please select ok to continue.");
+
+//minimum navy bombs while deployed
+var navyBombsDeployed = 450;
+
+//minimum navy bombs while training
+var navyBombsTraining = 123;
+
+//minimum marine bombs deployed
+var marineBombsDeployed = 375;
+
+//minimum marine bombs training
+var marineBombsTraining = 150;
+
+//minimum airforce bombs deployed
+var airforceBombsDeployed = 250;
+
+//minimum airforce bombs training
+var airforceBombsTraining = 90;
 
 
