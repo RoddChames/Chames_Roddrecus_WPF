@@ -23,8 +23,11 @@ alert("Thank you. You chose " + membersBranch + ". Please select ok to continue.
 //minimum navy bombs while deployed
 var navyBombsDeployed = 450;
 
+
+
 //minimum navy bombs while training
 var navyBombsTraining = 123;
+
 
 //minimum marine bombs deployed
 var marineBombsDeployed = 375;
@@ -41,22 +44,23 @@ var airforceBombsTraining = 90;
 //finding out if person is deployed or training
 var opStatus = prompt("Are you currently involed in training evolution, or deployed?");
 
+//ask users for number of bombs built
+var prompt1 = prompt("Enter total");
+
 //verify that the opstatus variable is working
 console.log(opStatus);
 
-//number of bombs person will assemble
-var numberToAssemble = prompt("How many bombs will your unit be assembling today?");
-
-//print numberToAssemble to ensure prompt is registered
-console.log(numberToAssemble);
 
 
-var p1 = prompt("Enter total");
 
-if(p1 > navyBombsDeployed &&) {
-    console.log("You are ready for battle.");
+
+
+if(membersBranch == "Navy" && opStatus == "deployed") {
+    console.log("You are in the Navy and are deployed.")
+}else if(prompt1 > navyBombsDeployed) {
+    console.log("You are ready for battle.")
 }else{
-    console.log("please increase loadout.");
+    console.log("please reverify information.")
 }
 
 
