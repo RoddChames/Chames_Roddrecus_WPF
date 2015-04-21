@@ -38,4 +38,25 @@ var airforceBombsDeployed = 250;
 //minimum airforce bombs training
 var airforceBombsTraining = 90;
 
+//finding out if person is deployed or training
+var opStatus = prompt("Are you currently involed in training evolution, or deployed?");
+
+//verify that the opstatus variable is working
+console.log(opStatus);
+
+//number of bombs person will assemble
+var numberToAssemble = prompt("How many bombs will your unit be assembling today?");
+
+//print numberToAssemble to ensure prompt is registered
+console.log(numberToAssemble);
+
+
+var p1 = prompt("Enter total");
+
+if(p1 > navyBombsDeployed &&) {
+    console.log("You are ready for battle.");
+}else{
+    console.log("please increase loadout.");
+}
+
 
