@@ -74,8 +74,21 @@ if((membersBranch == "Marines" && opStatus == "deployed") && prompt1 > marineBom
 
 //This calculator will tell how many bombs (minimum) need to be built daily by branch based on if they are deployed or training
 
+alert("This calculator will help you determine the minimum bombs required for your daily operational commitment.  To continue please click ok.");
 
 var bombsRequired = ["450","123","375","150","250","90"];
+
+var opStatus = ["training", "deployed"];
+
+var prompt1 = prompt("To allow us to better serve you please choose your military organization. (Navy, Marines, or Airforce)");
+console.log(prompt1);
+
+prompt1 = prompt("Are you currently deployed or training?");
+console.log(prompt1);
+
+prompt1 = prompt("Please enter number of bombs assembled");
+console.log(prompt1);
+
 
 
 
