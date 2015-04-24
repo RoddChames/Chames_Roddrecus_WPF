@@ -76,18 +76,37 @@ if((membersBranch == "Marines" && opStatus == "deployed") && prompt1 > marineBom
 
 alert("This calculator will help you determine the minimum bombs required for your daily operational commitment.  To continue please click ok.");
 
-var bombsRequired = ["450","123","375","150","250","90"];
-
-var opStatus = ["training", "deployed"];
+var bombsRequired = ["450","123","375"];
 
 var prompt1 = prompt("To allow us to better serve you please choose your military organization. (Navy, Marines, or Airforce)");
 console.log(prompt1);
 
-prompt1 = prompt("Are you currently deployed or training?");
-console.log(prompt1);
+prompt2 = prompt("Are you currently deployed or training?");
+console.log(prompt2);
 
-prompt1 = prompt("Please enter number of bombs assembled");
-console.log(prompt1);
+if(prompt1 === "Navy" && prompt2 ==="deployed") {
+    console.log(bombsRequired[0]);
+   var prompt3 = prompt("How many bombs have you assembled?");
+}
+
+if(prompt3 < bombsRequired[0]){
+    console.log("please assemble a minimum of " + bombsRequired[0] + " bombs to meet your operational quota for today.");
+}else{
+    console.log("You have met your your operational quota for today.");
+}
+
+
+//Airforce
+if(prompt1 === "Airforce" && prompt2 ==="deployed") {
+    console.log(bombsRequired[1]);
+    prompt3 = prompt("How many bombs have you assembled?");
+}
+
+if(prompt3 < bombsRequired[1]){
+    console.log("please assemble a minimum of " + bombsRequired[1] + " bombs to meet your operational quota for today.");
+}else{
+    console.log("You have met your your operational quota for today.");
+}
 
 
 
