@@ -6,14 +6,9 @@
 //Testing link between .js and index file
 //alert("This is to test js"); Test checked good, so I turned the alert into a note.
 
-//This calculator will tell how many bombs need to be built daily by branch based on if they are deployed or training
+//This calculator will tell how many bombs (minimum) need to be built daily by branch based on if they are deployed or training
 
-//Different military branches
-var militaryBranches = ["Navy", "Marines", "Airforce"];
-
-//printed out military branches to make sure arrays worked properly
-    console.log(militaryBranches);
-
+/*
 //Requesting military branch
 var membersBranch = prompt("To allow us to better serve you please choose your military organization. (Navy, Marines, or Airforce)");
 
@@ -23,11 +18,8 @@ alert("Thank you. You chose " + membersBranch + ". Please select ok to continue.
 //minimum navy bombs while deployed
 var navyBombsDeployed = 450;
 
-
-
 //minimum navy bombs while training
 var navyBombsTraining = 123;
-
 
 //minimum marine bombs deployed
 var marineBombsDeployed = 375;
@@ -45,7 +37,7 @@ var airforceBombsTraining = 90;
 var opStatus = prompt("Are you currently involed in training evolution, or deployed?");
 
 //ask users for number of bombs built
-var prompt1 = prompt("Enter total");
+var prompt1 = prompt("Please enter number of bombs built.");
 
 //verify that the opstatus variable is working
 console.log(opStatus);
@@ -55,12 +47,38 @@ console.log(opStatus);
 
 
 
-if(membersBranch == "Navy" && opStatus == "deployed") {
-    console.log("You are in the Navy and are deployed.")
-}else if(prompt1 > navyBombsDeployed) {
-    console.log("You are ready for battle.")
-}else{
-    console.log("please reverify information.")
+if((membersBranch == "Navy" && opStatus == "deployed") && prompt1 > navyBombsDeployed ) {
+    console.log("You are ready for war!!!");
 }
+
+if((membersBranch == "Marines" && opStatus == "deployed") && prompt1 > marineBombsDeployed ) {
+    console.log("You are ready for war!!!");
+}else{
+    console.log("please verify information.")
+}
+*/
+
+
+
+
+
+
+
+
+
+
+/*New section based on goToTraining Video*/
+
+//Testing link between .js and index file
+//alert("This is to test js"); Test checked good, so I turned the alert into a note.
+
+//This calculator will tell how many bombs (minimum) need to be built daily by branch based on if they are deployed or training
+
+
+var bombsRequired = ["450","123","375","150","250","90"];
+
+
+
+
 
 
