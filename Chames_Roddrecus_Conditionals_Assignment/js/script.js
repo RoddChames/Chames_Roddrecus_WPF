@@ -22,9 +22,14 @@ console.log(question1);
 
 //Ensures user enters Airforce in prompt.
 if(question1 === serviceBranch[0]) {
+//if(question1 === serviceBranch[1]) {
+//if(question1 === serviceBranch[2]) {
+
 
     //based on the user's input this prints out how many bombs are required for their respective branches.
     console.log("The " + serviceBranch[0] + " requires a minimum of " + bombsByBranch[0] + " bombs to be assembled.");
+    //console.log("The " + serviceBranch[1] + " requires a minimum of " + bombsByBranch[1] + " bombs to be assembled.");
+    //console.log("The " + serviceBranch[3] + " requires a minimum of " + bombsByBranch[3] + " bombs to be assembled.");
 
 //If user enters anything other than Airforce in the prompt then the following code will initialize.
 }else{
@@ -40,9 +45,13 @@ if(question1 === serviceBranch[0]) {
 
     //This ensures that after a second attempt to input valid information user is able to pick up where they left off.
     if(prompt2 === serviceBranch[0]){
+    //if(prompt2 === serviceBranch[1]){
+    //if(prompt2 === serviceBranch[2]){
 
         //Based on the user's input this prints out how many bombs are required for their respective branches.(initiated on second try).
         console.log("The " + serviceBranch[0] + " requires a minimum of " + bombsByBranch[0] + " bombs to be assembled.");
+        //console.log("The " + serviceBranch[1] + " requires a minimum of " + bombsByBranch[1] + " bombs to be assembled.");
+        //console.log("The " + serviceBranch[2] + " requires a minimum of " + bombsByBranch[2] + " bombs to be assembled.");
     }
 }
 
@@ -54,6 +63,8 @@ console.log(question2);
 
 //This conditional tracks whether the user has assembled the minimum required bombs.
 if(question2 >= bombsByBranch[0]) {
+//if(question2 >= bombsByBranch[1]) {
+//if(question2 >= bombsByBranch[2]) {
 
     //Logs the input from the prompt.
     console.log("You have accomplished the minimum amount of assembled bombs for today's evolution.");
@@ -66,15 +77,23 @@ if(question2 >= bombsByBranch[0]) {
 
     //This will print only when the user inputs a number below the minimum required.
     console.log("The " + serviceBranch[0] + " requires a minimum of " + bombsByBranch[0] + " bombs to be assembled.");
+    //console.log("The " + serviceBranch[1] + " requires a minimum of " + bombsByBranch[1] + " bombs to be assembled.");
+    //console.log("The " + serviceBranch[2] + " requires a minimum of " + bombsByBranch[2] + " bombs to be assembled.");
+
 
     //This prompt is the second chance for the user to input more bombs if needed.
     var prompt2 = prompt("You have more work to do. \nThe " + serviceBranch[0] + " requires a minimum of " + bombsByBranch[0] + " bombs to be assembled.\nPlease enter a different value");
+    //var prompt2 = prompt("You have more work to do. \nThe " + serviceBranch[1] + " requires a minimum of " + bombsByBranch[1] + " bombs to be assembled.\nPlease enter a different value");
+    //var prompt2 = prompt("You have more work to do. \nThe " + serviceBranch[2] + " requires a minimum of " + bombsByBranch[2] + " bombs to be assembled.\nPlease enter a different value");
+
 
     //This prints the amount when a second chance is given to the user.
     console.log(prompt2);
 
     //This ensures that the second chance given to the user is greater than or equal to the minimum bomb assembly required. This line also prints out that the user has completed the daily tasks, and alerts the user that they have completed the daily tasks.
     (prompt2 <= bombsByBranch[0]) ?  console.log("You have accomplished the minimum amount of assembled bombs for today's evolution.") : alert("You did not complete todays evolution");
+    //(prompt2 <= bombsByBranch[1]) ?  console.log("You have accomplished the minimum amount of assembled bombs for today's evolution.") : alert("You did not complete todays evolution");
+    //(prompt2 <= bombsByBranch[2]) ?  console.log("You have accomplished the minimum amount of assembled bombs for today's evolution.") : alert("You did not complete todays evolution");
 
 }
 
