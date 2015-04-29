@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2ed92d3-3ea2-43ca-9e0c-42ecd04da2a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Work Template/index.html" afterPath="$PROJECT_DIR$/Work Template/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Work Template/js/script.js" afterPath="$PROJECT_DIR$/Work Template/js/script.js" />
-    </list>
+    <list default="true" id="b2ed92d3-3ea2-43ca-9e0c-42ecd04da2a2" name="Default" comment="" />
     <ignored path="Chames_Roddrecus_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,8 +37,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Work Template/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10330579" vertical-offset="0" max-vertical-offset="726">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.24793388" vertical-offset="0" max-vertical-offset="726">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -489,8 +486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Work Template/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10330579" vertical-offset="0" max-vertical-offset="726">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.24793388" vertical-offset="0" max-vertical-offset="726">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
