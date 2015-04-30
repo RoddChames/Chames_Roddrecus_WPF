@@ -16,20 +16,27 @@ while(question2 != "dodge charger" && question2 != "chevy camaro" && question2 !
     console.log(question2);
 }
 
-if(question2 === "dodge charger" || tryAgain === "dodge charger" ){
+if(question2 === "dodge charger"){
     console.log("The price the selected car is $" +42,500+ ".");
-}else if(question2 === "chevy camaro" || tryAgain === "chevy camaro" ){
+}else if(question2 === "chevy camaro"){
     console.log("The price the selected car is $" +38,200+ ".");
-}else if(question2 === "ford mustang" || tryAgain === "ford mustang" ){
+}else if(question2 === "ford mustang"){
     console.log("The price the selected car is $" +37,800+ ".");
 }
 
+var incomeInput = prompt("What is your hourly income?");
+var hoursInput = prompt("How many hours per week do you work?1");
+var monthlyIncome = monthlyPay(incomeInput, hoursInput);
+console.log(monthlyIncome);
 
-/*var carChoices = ["Dodge Charger","Chevy Camaro","Ford Mustang"];
 
-function monthlyPay(payByHour,hoursPerWeek){
-    var payByWeek = payByHour * hoursPerWeek;
+
+
+
+
+function monthlyPay(incomeInput,hoursInput){
+    var payByWeek = incomeInput * hoursInput;
     var payPerMonth = payByWeek * 4;
     return payPerMonth;
 }
-*/
+
