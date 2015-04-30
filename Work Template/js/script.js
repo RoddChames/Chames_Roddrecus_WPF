@@ -21,12 +21,13 @@ while(question2 != "dodge charger" && question2 != "chevy camaro" && question2 !
 
 //Prints out the price of the car based on the user's decision.
 if(question2 === "dodge charger"){
-    console.log("The price the selected car is $" +42+ "," +500+ ".");
+    console.log("The price the selected car is $" + 42 + "," + 500 + ".");
 }else if(question2 === "chevy camaro"){
-    console.log("The price the selected car is $" +38+","+200+ ".");
+    console.log("The price the selected car is $" + 38 + "," + 200 + ".");
 }else if(question2 === "ford mustang"){
-    console.log("The price the selected car is $" +37+","+800+ ".");
+    console.log("The price the selected car is $" + 37 + "," + 800 + ".");
 }
+
 
 //Request the user to input hourly income earned.
 var incomeInput = prompt("What is your hourly income?");
@@ -44,6 +45,24 @@ while(incomeInput === "" || isNaN(incomeInput)) {
         console.log("Your hourly income is $" +incomeInput+ " an hour.")
     }
 }
+
+//Request user to input how much they pay in bills.
+var billsPrompt = prompt("How much do you pay a month in bills?");
+console.log("You pay $" + billsPrompt + " in bills every month.");
+
+//While validation loop for bills paid monthly.
+while(billsPrompt === "" || isNaN(billsPrompt)) {
+    if(billsPrompt === ""){
+        console.log("Please do not leave blank.\nHow much do you pay monthly in bills?");
+        billsPrompt = prompt("Please do not leave blank.\nHow much do you pay monthly in bills?");
+        console.log("You pay $" +billsPrompt+ " in bills a month.");
+    }else if(isNaN(billsPrompt)){
+        console.log("Please use numbers only.\nHow many much do you pay monthly in bills?");
+        billsPrompt = prompt("Please use numbers only.\nHow many much do you pay monthly in bills?");
+        console.log("You pay $" +billsPrompt+ " in bills a month.");
+    }
+}
+
 
 
 //Request the user to input hours work a week.
@@ -64,7 +83,7 @@ while(hoursInput === "" || isNaN(hoursInput)) {
 }
 
 //Prints how much your monthly pay is in the console based on income and hours worked.
-var monthlyIncome = monthlyPay(incomeInput, hoursInput);
+var monthlyIncome = monthlyPay(incomeInput, hoursInput) - billsPrompt;
 console.log("Your monthly income is $" + monthlyIncome + ".");
 
 //Function is the factory for the formula that gives the monthly pay.
@@ -74,6 +93,62 @@ function monthlyPay(incomeInput,hoursInput){
     return payPerMonth;
 }
 
-/*function credit(){
-    var randomNum =
-}*/
+
+var creditScore = [600, 700, 800];
+
+if(monthlyIncome >= 2000){
+    console.log("Your credit score is " + creditScore[2] + ".");
+    alert("Your credit score is " + creditScore[2] + ".");
+}else if(monthlyIncome >= 1600){
+    console.log("Your credit score is " + creditScore[1] + ".");
+    alert("Your credit score is " + creditScore[1] + ".");
+}else if(monthlyIncome >= 990){
+    console.log("Your credit score is " + creditScore[0] + ".");
+    alert("Your credit score is " + creditScore[0] + ".");
+}else{
+    console.log("We apologize your credit score is too low.\nYou do not qualify for financing of the listed cars.");
+    alert("We apologize your credit score is too low.\nYou do not qualify for financing of the listed cars.")
+}
+
+/*
+while(monthlyIncome < 990){
+    console.log("This session is over. \nPlease restart your browser.");
+    alert("This session is over. \nPlease restart your browser.");
+}
+*/
+
+var creditScorePrompt = prompt("What is your credit score?");
+console.log(creditScorePrompt);
+
+var finalPayment = payment(monthlyIncome,creditScorePrompt,billsPrompt);
+
+
+function payment(monthlyIncome, creditScorePrompt, billsPrompt){
+    if(monthlyIncome + creditScorePrompt - billsPrompt >= 2000){
+        console.log("Your car payments will be $300 a month.");
+        var alert1 = alert("Your car payments will be $350 a month.");
+    }else if(monthlyIncome + creditScorePrompt - billsPrompt >= 1600){
+        console.log("Your car payments will be $400 a month.");
+       var alert1 = alert("Your car payments will be $400 a month.");
+    }else if(monthlyIncome + creditScorePrompt - billsPrompt >= 1200){
+        console.log("Your car payments will be $550 a month.");
+       var alert1 = alert("Your car payments will be $550 a month.");
+    }
+    return alert1;
+}
+
+
+
+/*test values
+
+income per hour: 5       hours per week: 40
+
+income per hour: 8       hours per week: 40
+
+income per hour: 10      hours per week: 40
+
+income per hour: 20      hours per week: 40
+
+
+ */
+
