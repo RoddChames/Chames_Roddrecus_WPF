@@ -168,8 +168,8 @@ if(monthlyIncome >= 2000){
     alert("We apologize your credit score is too low.\nYou do not qualify for financing of the listed cars.")
 }
 
-//while loop to terminate session for unqualified customers
-while(monthlyIncome < 990){
+//while loop to terminate session by closing browser window for unqualified customers
+while(monthlyIncome <= 990){
     console.log("This session is over. \nPlease restart your browser.");
     alert("This session is over. \nPlease restart your browser.");
 }
@@ -204,13 +204,13 @@ function payment(monthlyIncome, creditScorePrompt, billsPrompt){
 
 /*test values
 
-income per hour: 5       bills paid: 400        hours per week: 40
+income per hour: 5       bills paid: 100        hours per week: 30
 
-income per hour: 8       bills paid: 400        hours per week: 40
+income per hour: 8       bills paid: 200        hours per week: 40
 
-income per hour: 10      bills paid: 400        hours per week: 40
+income per hour: 10      bills paid: 200        hours per week: 40
 
-income per hour: 20      bills paid: 400        hours per week: 40
+income per hour: 20      bills paid: 300        hours per week: 40
 
 
  */

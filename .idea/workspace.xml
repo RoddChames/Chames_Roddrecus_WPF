@@ -39,8 +39,8 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Work Template/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.91735536" vertical-offset="2574" max-vertical-offset="3345">
-              <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6487603" vertical-offset="2619" max-vertical-offset="3345">
+              <caret line="206" column="66" selection-start-line="206" selection-start-column="66" selection-end-line="206" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -130,6 +130,7 @@
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="FullScreen" value="false" />
+    <property name="jsx.switch.disabled" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -488,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Work Template/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.91735536" vertical-offset="2574" max-vertical-offset="3345">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.6487603" vertical-offset="2619" max-vertical-offset="3345">
+          <caret line="206" column="66" selection-start-line="206" selection-start-column="66" selection-end-line="206" selection-end-column="66" />
           <folding />
         </state>
       </provider>
